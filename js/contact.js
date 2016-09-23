@@ -50,7 +50,7 @@ $(document).ready(function () {
 
         jQuery.ajax({
             type: "POST",
-            url: "http://formspree.io/yashua@urbanlotus.com",
+            url: "https://formspree.io/yashua@urbanlotus.com",
             data: myData,
             dataType: "json",
             success: function (response) {
